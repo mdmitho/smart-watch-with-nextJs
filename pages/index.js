@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Baner from '../Components/Baner';
 import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
 
@@ -20,6 +21,7 @@ export default function Home() {
         <title>Smart Watch</title>
       </Head>
       <Navbar />
+      <Baner/>
       <Footer/>
 
     </div>

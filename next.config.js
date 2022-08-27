@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  hostname: ["mu.creativeracer.net"],
+};
 
 module.exports = nextConfig
