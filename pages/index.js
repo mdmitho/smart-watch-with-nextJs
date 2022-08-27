@@ -1,17 +1,28 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Navbar from '../Components/Navbar';
 
+
+
+
+
+
+
+
+ 
 export default function Home() {
+
+
+  
   return (
-    <div>
+    <div className="">
       <Head>
-        <title>Create Next App</title>
-        
+        <title>Smart Watch</title>
       </Head>
 
 
-     
+
+      <Navbar />
+
     </div>
-  )
+  );
 }
