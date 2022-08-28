@@ -2,6 +2,7 @@ import { NavLink } from "next/router";
 import styled from "daisyui/dist/styled";
 import Image from "next/dist/client/image";
 import logo from '../public/logo.png'
+import Head from "next/head";
 
 
 const Navbar = () => {
@@ -9,6 +10,14 @@ const Navbar = () => {
 
   return (
     <div>
+      <Head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Free Web tutorials" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="author" content="John Doe" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+
       <div className="container mx-auto navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">

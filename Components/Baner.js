@@ -1,9 +1,18 @@
 import React from 'react';
 import Image from 'next/dist/client/image';
 import banar from '../public//banar.png'
+import Head from "next/head";
+
 const Baner = () => {
     return (
       <div>
+        <Head>
+          <meta charset="UTF-8" />
+          <meta name="description" content="Free Web tutorials" />
+          <meta name="keywords" content="HTML, CSS, JavaScript" />
+          <meta name="author" content="John Doe" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head>
         <div className="hero container mx-auto min-h-screen bg-base-100 text-left">
           <div className="hero-content flex-col lg:flex-row">
             <div className="ml-10">
@@ -15,10 +24,7 @@ const Baner = () => {
               <button className="btn btn-primary">Get Started</button>
             </div>
             <div className="">
-              <Image
-               className=''
-                src={banar}
-              ></Image>
+              <Image className="" src={banar}></Image>
             </div>
           </div>
         </div>

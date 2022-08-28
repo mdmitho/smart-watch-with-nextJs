@@ -1,8 +1,17 @@
 import React from 'react';
+import Head from "next/head";
 
 const CompanyOvarview = () => {
     return (
       <div className="  mt-10 py-32 text-center bg-neutral">
+        <Head>
+          <meta charset="UTF-8" />
+          <meta name="description" content="Free Web tutorials" />
+          <meta name="keywords" content="HTML, CSS, JavaScript" />
+          <meta name="author" content="John Doe" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head>
+
         <h1 className="text-5xl font-bold text-emerald-500">MILLIONS PEOPLE TRUST US</h1>
         <h4 className="text-2xl font-bold text-green-500 mb-5">
           TRY TO UNDERSTAND USERS EXPECTATION
@@ -49,8 +58,6 @@ const CompanyOvarview = () => {
             <div className="stat-value text-secondary">2.6M</div>
             <div className="stat-desc">21% more than last month</div>
           </div>
-
-         
 
           <div className="stat">
             <div className="stat-figure text-secondary">

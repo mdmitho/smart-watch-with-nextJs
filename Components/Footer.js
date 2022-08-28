@@ -1,10 +1,20 @@
 import React from 'react';
 import logo from '../public/logo.png'
 import Image from 'next/dist/client/image';
+import Head from "next/head";
+
 
 const Footer = () => {
     return (
       <div>
+        <Head>
+          <meta charset="UTF-8" />
+          <meta name="description" content="Free Web tutorials" />
+          <meta name="keywords" content="HTML, CSS, JavaScript" />
+          <meta name="author" content="John Doe" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head>
+
         <footer className="footer footer-center p-10 bg-primary text-primary-content">
           <div className="grid grid-flow-col gap-4">
             <a className="link link-hover">About us</a>
@@ -14,7 +24,7 @@ const Footer = () => {
           </div>
           <div>
             <div className="w-10 ">
-              <Image src={logo} alt="" ></Image>
+              <Image src={logo} alt=""></Image>
             </div>
             <p className="font-bold">
               <span className="text-xl ">Smart Watch</span> <br />
