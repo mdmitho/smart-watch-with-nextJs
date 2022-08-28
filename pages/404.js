@@ -21,7 +21,7 @@ const ErrorPage = () => {
           <meta name="author" content="John Doe" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
-        <Image src={NotFound} layout="fill"></Image>
+        <Image src={NotFound} layout="fill" alt=''></Image>
       </div>
     );
 };

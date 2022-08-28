@@ -1,10 +1,11 @@
+
 import Head from 'next/head'
 import Baner from '../Components/Baner';
 import CompanyOvarview from '../Components/CompanyOvarview';
 import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
-
+import Image from 'next/image';
 
 
 
@@ -36,7 +37,13 @@ console.log(watch);
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
       <Navbar />
-      <Baner />
+    
+
+
+ 
+
+
+<Baner/>
       <div className="">
         <div className="container mx-auto">
           <h1 className="text-center text-5xl font-bold my-10 ">All New Watch</h1>
@@ -47,7 +54,7 @@ console.log(watch);
                 <div key={curElem.id}>
                   <div className="container mx-auto card  bg-base-100 shadow-xl">
                     <figure>
-                      <img className="h-[390px]" src={img} alt="Shoes" />
+                      <Image height="390px" width="400px" src={img} alt=""></Image>
                     </figure>
                     <div className="card-body">
                       <h2 className="card-title">

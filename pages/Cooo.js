@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/dist/client/image';
-import banar from '../public/banar.png'
+import banarrr from '../public/banar.png'
 import Head from "next/head";
 
-const Baner = () => {
+const Cooo = () => {
     return (
       <div>
         <div>
@@ -25,7 +25,7 @@ const Baner = () => {
                 <button className="btn btn-primary">Get Started</button>
               </div>
               <div className="">
-                <Image height="400px"  src={banar}></Image>
+                <Image height="400" width="400" src={banarrr}></Image>
               </div>
             </div>
           </div>
@@ -35,4 +35,4 @@ const Baner = () => {
     );
 };
 
-export default Baner;
+export default Cooo;
