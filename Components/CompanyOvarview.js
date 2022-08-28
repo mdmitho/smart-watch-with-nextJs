@@ -2,7 +2,7 @@ import React from 'react';
 
 const CompanyOvarview = () => {
     return (
-      <div className="  my-10 py-32 text-center bg-neutral">
+      <div className="  mt-10 py-32 text-center bg-neutral">
         <h1 className="text-5xl font-bold text-emerald-500">MILLIONS PEOPLE TRUST US</h1>
         <h4 className="text-2xl font-bold text-green-500 mb-5">
           TRY TO UNDERSTAND USERS EXPECTATION
@@ -50,18 +50,7 @@ const CompanyOvarview = () => {
             <div className="stat-desc">21% more than last month</div>
           </div>
 
-          <div className="stat">
-            <div className="stat-figure text-secondary">
-              <div className="avatar online">
-                <div className="w-16 rounded-full">
-                  <img src="https://placeimg.com/128/128/people" />
-                </div>
-              </div>
-            </div>
-            <div className="stat-value">86%</div>
-            <div className="stat-title">Tasks done</div>
-            <div className="stat-desc text-secondary">31 tasks remaining</div>
-          </div>
+         
 
           <div className="stat">
             <div className="stat-figure text-secondary">

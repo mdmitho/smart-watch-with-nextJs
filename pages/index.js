@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Baner from '../Components/Baner';
 import CompanyOvarview from '../Components/CompanyOvarview';
+import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
 // import Wacth from '../Components/Wacth';
@@ -67,6 +68,7 @@ console.log(watch);
       <div className="">
         <CompanyOvarview />
       </div>
+      <Contact/>
       <div className="">
         <Footer />
       </div>
