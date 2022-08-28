@@ -1,11 +1,21 @@
-import React from 'react';
+import Image from 'next/image'
 
 const Contact = () => {
     return (
       <div className="bg-base-200 text-center py-10 ">
         <h1 className="text-5xl font-bold mb-5">Contact Me</h1>
         <div className="hero  ">
-          <div className="hero-content w-3/6">
+          <div className="hero-content  flex-col lg:flex-row-reverse">
+            <div className="text-center w-full lg:text-left">
+          
+              <Image
+                 className='rounded'
+                src="https://www.whereig.com/images/where-is/jordan-location-map.jpg"
+                width="550"
+                height="570"
+              ></Image>
+            </div>
+
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
               <div className="card-body">
                 <div className="form-control">

@@ -4,7 +4,7 @@ import CompanyOvarview from '../Components/CompanyOvarview';
 import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
-// import Wacth from '../Components/Wacth';
+
 
 
 
@@ -29,6 +29,11 @@ console.log(watch);
     <div className="">
       <Head>
         <title>Smart Watch</title>
+        <meta charset="UTF-8"/>
+  <meta name="description" content="Free Web tutorials"/>
+  <meta name="keywords" content="HTML, CSS, JavaScript"/>
+  <meta name="author" content="John Doe"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
       <Navbar />
       <Baner />
@@ -46,10 +51,10 @@ console.log(watch);
                     </figure>
                     <div className="card-body">
                       <h2 className="card-title">
-                        {name}
+                        Name: {name}
                         <div className="badge badge-secondary">NEW</div>
                       </h2>
-                      <h2 className="card-title">{price}</h2>
+                      <h2 className="card-title">price: ${price}</h2>
                       <p>
                         <span className="inline-block"></span>
                       </p>
@@ -64,7 +69,7 @@ console.log(watch);
           </div>
         </div>
       </div>
-      {/* <Wacth /> */}
+     
       <div className="">
         <CompanyOvarview />
       </div>
